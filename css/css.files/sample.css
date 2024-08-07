@@ -1,0 +1,42 @@
+h1{
+    color: chocolate;
+    background-color: blueviolet;
+    text-decoration: underline;
+}
+p{
+    border: 2px solid black;
+}
+#header{
+    background-color: rgb(43, 226, 195);
+}
+ol li{
+    height: 30px;
+    width: 100px;
+    border: 2px solid yellow;
+    color: blue;
+    cursor: pointer;
+}
+ol li:hover{
+    background-color: blueviolet;
+    color: blue;
+    cursor: pointer;
+}
+ol ul{
+    height: 30px;
+    width: 100px;
+    border:2px solid blue ;
+    color: orangered;
+    cursor: pointer;
+}
+ol ul:hover{
+    background-color: yellowgreen;
+    color: purple;
+    cursor: pointer;
+}
+p::before{
+    content: "read more....";
+    background-color: rgb(255, 0, 21);
+    height: 2px;
+    width: 50px;
+    display:;
+}
